@@ -13,7 +13,8 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
 /* Declaring helper functions: */
 
 int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args);
-
+int write_itype(uint8_t funct, FILE* output, char** args, size_t num_args);
+int write_jtype(uint8_t funct, FILE* output, char** args, size_t num_args);
 int write_shift(uint8_t funct, FILE* output, char** args, size_t num_args);
 
 /* SOLUTION CODE BELOW */
